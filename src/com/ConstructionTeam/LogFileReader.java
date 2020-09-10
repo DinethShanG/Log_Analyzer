@@ -20,10 +20,22 @@ public class LogFileReader {
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
-                System.out.println("-------------------------------------------------------------------------------------------------------------------------------");
-                //String[] arrayOfString=data.split(",",5);
+                int index=data.indexOf(errorKeyWord);
+                if (index != -1) {
+                    //System.out.println("finded" +data);
+                    String[] spaceBraker =data.split(" ",3);// divide by space
+                        String[] commaBraker =spaceBraker[1].split(",",10); // divide by comma
+                        String[] dashBraker =spaceBraker[2].split("-",10);  // divide by dash
 
-                results.add(errorResult);
+                    System.out.println();
+                    
+                    errorResult.date=spaceBraker[0];
+                    errorResult.time = commaBraker[0];
+                    errorResult.errorTree=dashBraker[1];
+                    errorResult.errorDescription=dashBraker[2];
+
+                    results.add(errorResult);
+                }
 
             }
 
