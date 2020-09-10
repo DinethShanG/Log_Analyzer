@@ -1,0 +1,440 @@
+2020-01-25 16:07:06,414 [14837560]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:06,429 [14837575]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:06,429 [14837575]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:06,445 [14837591]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,448 [14839594]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,464 [14839610]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,480 [14839626]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,480 [14839626]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,480 [14839626]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,495 [14839641]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,495 [14839641]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,511 [14839657]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,511 [14839657]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,526 [14839672]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,526 [14839672]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,542 [14839688]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,542 [14839688]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,542 [14839688]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:08,589 [14839735]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7febcc52 
+2020-01-25 16:07:08,605 [14839751]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1ee04740 
+2020-01-25 16:07:08,620 [14839766]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@673d235 
+2020-01-25 16:07:08,620 [14839766]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7345b54b 
+2020-01-25 16:07:08,620 [14839766]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b5d3359 
+2020-01-25 16:07:08,636 [14839782]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@650a5a93 
+2020-01-25 16:07:08,636 [14839782]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3e4d3163 
+2020-01-25 16:07:08,651 [14839797]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@571cf8d3 
+2020-01-25 16:07:08,651 [14839797]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1481fa6c 
+2020-01-25 16:07:08,667 [14839813]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@71295046 
+2020-01-25 16:07:08,667 [14839813]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@215c6f39 
+2020-01-25 16:07:08,683 [14839829]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@53fc06f2 
+2020-01-25 16:07:08,683 [14839829]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@401568a6 
+2020-01-25 16:07:08,702 [14839848]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1a732f2f 
+2020-01-25 16:07:08,702 [14839848]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3a19efc3 
+2020-01-25 16:07:35,194 [14866340]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@58319d15 
+2020-01-25 16:07:35,210 [14866356]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4bb0a90d 
+2020-01-25 16:07:35,210 [14866356]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@30645384 
+2020-01-25 16:07:35,225 [14866371]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@405daaca 
+2020-01-25 16:07:35,225 [14866371]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1ce02f3f 
+2020-01-25 16:07:35,241 [14866387]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@73b5a862 
+2020-01-25 16:07:35,241 [14866387]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1ac04ce9 
+2020-01-25 16:07:35,257 [14866403]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1dec8732 
+2020-01-25 16:07:35,257 [14866403]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6b0ba75 
+2020-01-25 16:07:35,272 [14866418]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b693eac 
+2020-01-25 16:07:35,272 [14866418]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@62fef6b4 
+2020-01-25 16:07:35,288 [14866434]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2f7359bc 
+2020-01-25 16:07:35,288 [14866434]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@287d0ce8 
+2020-01-25 16:07:35,303 [14866449]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@43aac1a5 
+2020-01-25 16:07:35,319 [14866465]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6f1d43b8 
+2020-01-25 16:07:35,319 [14866465]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7d2165dc 
+2020-01-25 16:07:35,335 [14866481]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@156d45f3 
+2020-01-25 16:07:35,353 [14866499]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1f0e6f1a 
+2020-01-25 16:07:35,353 [14866499]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2433b842 
+2020-01-25 16:07:35,369 [14866515]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3d87999 
+2020-01-25 16:07:35,369 [14866515]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@76765105 
+2020-01-25 16:07:35,369 [14866515]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1f4e54e0 
+2020-01-25 16:07:35,385 [14866531]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@53efcdf7 
+2020-01-25 16:07:35,401 [14866547]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6be908ec 
+2020-01-25 16:07:35,416 [14866562]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7c74f1ce 
+2020-01-25 16:07:35,432 [14866578]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1e312ae9 
+2020-01-25 16:07:35,448 [14866594]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3a6ded24 
+2020-01-25 16:07:35,466 [14866612]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1a27ac8 
+2020-01-25 16:07:35,481 [14866627]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3dff01c4 
+2020-01-25 16:07:35,496 [14866642]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4a46d305 
+2020-01-25 16:07:35,497 [14866643]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@41b4bd2c 
+2020-01-25 16:07:35,529 [14866675]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@53a7dcdf 
+2020-01-25 16:07:35,545 [14866691]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@392c8e67 
+2020-01-25 16:07:35,560 [14866706]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1b85d183 
+2020-01-25 16:07:35,560 [14866706]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@45d00127 
+2020-01-25 16:07:35,576 [14866722]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1c2b7b81 
+2020-01-25 16:07:35,592 [14866738]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@149eab50 
+2020-01-25 16:07:35,622 [14866768]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6b68d3f4 
+2020-01-25 16:07:35,670 [14866816]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3a86c379 
+2020-01-25 16:07:35,733 [14866879]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b0699b 
+2020-01-25 16:07:35,795 [14866941]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@c2fadcf 
+2020-01-25 16:07:35,858 [14867004]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@67fe1ed1 
+2020-01-25 16:07:35,920 [14867066]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6553c72b 
+2020-01-25 16:07:35,935 [14867081]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@50dc5d5d 
+2020-01-25 16:07:36,000 [14867146]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b6d99da 
+2020-01-25 16:07:36,063 [14867209]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1a332622 
+2020-01-25 16:07:36,126 [14867272]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1f174478 
+2020-01-25 16:07:36,189 [14867335]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@576f52c1 
+2020-01-25 16:07:36,251 [14867397]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@66ff3710 
+2020-01-25 16:07:36,314 [14867460]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3f7bb3be 
+2020-01-25 16:07:36,376 [14867522]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@16e4f08c 
+2020-01-25 16:07:36,439 [14867585]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@21567062 
+2020-01-25 16:07:36,501 [14867647]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@172959a8 
+2020-01-25 16:07:36,564 [14867710]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4fd08284 
+2020-01-25 16:07:36,626 [14867772]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3fe3fa4b 
+2020-01-25 16:07:36,689 [14867835]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@9bb52ac 
+2020-01-25 16:07:36,751 [14867897]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6dd8d5c4 
+2020-01-25 16:07:36,814 [14867960]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@721ea042 
+2020-01-25 16:07:36,892 [14868038]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7f609763 
+2020-01-25 16:07:36,892 [14868038]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7756398a 
+2020-01-25 16:07:36,910 [14868056]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@153ebbcb 
+2020-01-25 16:07:36,926 [14868072]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@57ba6d4d 
+2020-01-25 16:07:36,926 [14868072]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5bdf8c9b 
+2020-01-25 16:07:36,941 [14868087]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@9ceb8c7 
+2020-01-25 16:07:36,960 [14868106]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@70d0e3cb 
+2020-01-25 16:07:36,976 [14868122]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5deead6f 
+2020-01-25 16:07:36,976 [14868122]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@66828deb 
+2020-01-25 16:07:36,992 [14868138]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@59312adb 
+2020-01-25 16:07:37,007 [14868153]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1c71facb 
+2020-01-25 16:07:37,038 [14868184]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@740443a7 
+2020-01-25 16:07:37,038 [14868184]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2509ae76 
+2020-01-25 16:07:37,070 [14868216]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1598ef3a 
+2020-01-25 16:07:37,117 [14868263]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5b28b5cf 
+2020-01-25 16:07:37,179 [14868325]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@100ebee6 
+2020-01-25 16:07:37,242 [14868388]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@66fce899 
+2020-01-25 16:07:37,304 [14868450]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2480502 
+2020-01-25 16:07:37,351 [14868497]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@39cad33b 
+2020-01-25 16:07:37,351 [14868497]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7685bc15 
+2020-01-25 16:07:37,367 [14868513]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@47cfcf69 
+2020-01-25 16:07:37,367 [14868513]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@128e92ab 
+2020-01-25 16:07:37,382 [14868528]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@8672b14 
+2020-01-25 16:07:37,382 [14868528]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2a3ca54f 
+2020-01-25 16:07:37,398 [14868544]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2433ee2f 
+2020-01-25 16:07:37,429 [14868575]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@47dbae72 
+2020-01-25 16:07:37,429 [14868575]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6de1745 
+2020-01-25 16:07:37,429 [14868575]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3394bd94 
+2020-01-25 16:07:37,445 [14868591]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1883a61d 
+2020-01-25 16:07:37,461 [14868607]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@39f18cd3 
+2020-01-25 16:07:37,461 [14868607]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2c4ec3c9 
+2020-01-25 16:07:37,476 [14868622]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2f2d3511 
+2020-01-25 16:07:37,476 [14868622]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7a4753be 
+2020-01-25 16:07:37,492 [14868638]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@797cf50d 
+2020-01-25 16:07:37,492 [14868638]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@43a0018c 
+2020-01-25 16:07:37,492 [14868638]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@13df847c 
+2020-01-25 16:07:37,507 [14868653]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@61df7414 
+2020-01-25 16:07:37,507 [14868653]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@af727c7 
+2020-01-25 16:07:37,523 [14868669]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@53351c95 
+2020-01-25 16:07:37,523 [14868669]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@35708403 
+2020-01-25 16:07:37,539 [14868685]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6bd8fe6 
+2020-01-25 16:07:37,539 [14868685]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@21aa3dc2 
+2020-01-25 16:07:37,554 [14868700]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b6344d4 
+2020-01-25 16:07:37,554 [14868700]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@32280fda 
+2020-01-25 16:07:37,570 [14868716]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1fe2bcae 
+2020-01-25 16:07:37,570 [14868716]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@64f902ec 
+2020-01-25 16:07:37,570 [14868716]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@74f316cd 
+2020-01-25 16:07:37,586 [14868732]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@108da5f2 
+2020-01-25 16:07:37,586 [14868732]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@33ca0f4b 
+2020-01-25 16:07:37,601 [14868747]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1351b73e 
+2020-01-25 16:07:37,601 [14868747]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowBefore, row=0, col=0) 
+2020-01-25 16:07:37,617 [14868763]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowBefore, row=0, col=0) 
+2020-01-25 16:07:37,632 [14868778]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowBefore, row=0, col=0) 
+2020-01-25 16:07:37,632 [14868778]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowBefore, row=0, col=0) 
+2020-01-25 16:07:37,648 [14868794]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowBefore, row=0, col=0) 
+2020-01-25 16:07:37,648 [14868794]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowBefore, row=0, col=0) 
+2020-01-25 16:07:37,648 [14868794]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:37,664 [14868810]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:37,664 [14868810]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:37,679 [14868825]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,695 [14868841]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,695 [14868841]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,710 [14868856]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,710 [14868856]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,726 [14868872]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,726 [14868872]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,726 [14868872]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,742 [14868888]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:37,742 [14868888]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=0) 
+2020-01-25 16:07:37,757 [14868903]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=0) 
+2020-01-25 16:07:37,773 [14868919]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowAfter, row=0, col=1) 
+2020-01-25 16:07:37,804 [14868950]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(RowAfter, row=0, col=1) 
+2020-01-25 16:07:37,804 [14868950]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,835 [14868981]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,851 [14868997]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,851 [14868997]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,867 [14869013]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,867 [14869013]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,867 [14869013]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,882 [14869028]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,882 [14869028]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,898 [14869044]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,898 [14869044]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,916 [14869062]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,916 [14869062]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,931 [14869077]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,931 [14869077]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,931 [14869077]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,946 [14869092]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,946 [14869092]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:37,962 [14869108]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:37,962 [14869108]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:37,980 [14869126]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:37,980 [14869126]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:37,995 [14869141]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:37,995 [14869141]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,027 [14869173]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,043 [14869189]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,058 [14869204]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,074 [14869220]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,074 [14869220]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,136 [14869282]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,199 [14869345]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,262 [14869408]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,324 [14869470]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,386 [14869532]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,440 [14869586]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,503 [14869649]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,565 [14869711]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,581 [14869727]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,597 [14869743]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,612 [14869758]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,612 [14869758]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,612 [14869758]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,627 [14869773]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=1) 
+2020-01-25 16:07:38,627 [14869773]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,643 [14869789]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,643 [14869789]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,659 [14869805]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,659 [14869805]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,674 [14869820]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,674 [14869820]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,674 [14869820]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,690 [14869836]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,690 [14869836]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,706 [14869852]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,706 [14869852]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,721 [14869867]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,721 [14869867]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,737 [14869883]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,737 [14869883]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,752 [14869898]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=1,col=1) 
+2020-01-25 16:07:38,752 [14869898]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=0) 
+2020-01-25 16:07:38,768 [14869914]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=0) 
+2020-01-25 16:07:38,784 [14869930]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=1, col=0) 
+2020-01-25 16:07:38,784 [14869930]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnAfter, row=0, col=0) 
+2020-01-25 16:07:38,799 [14869945]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:38,831 [14869977]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridDropLocation(row=0,col=0) 
+2020-01-25 16:07:38,831 [14869977]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation GridInsertLocation(ColumnBefore, row=0, col=0) 
+2020-01-25 16:07:38,862 [14870008]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@372bc147 
+2020-01-25 16:07:38,877 [14870023]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@124a8553 
+2020-01-25 16:07:38,877 [14870023]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@a5c3286 
+2020-01-25 16:07:38,893 [14870039]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@32f69ab 
+2020-01-25 16:07:38,893 [14870039]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@18820551 
+2020-01-25 16:07:38,909 [14870055]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@a543eab 
+2020-01-25 16:07:38,909 [14870055]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@186381ea 
+2020-01-25 16:07:38,909 [14870055]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@41d5e6cb 
+2020-01-25 16:07:38,924 [14870070]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@861e1c6 
+2020-01-25 16:07:38,924 [14870070]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5571078d 
+2020-01-25 16:07:38,940 [14870086]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@74dd7450 
+2020-01-25 16:07:38,940 [14870086]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@81185be 
+2020-01-25 16:07:38,956 [14870102]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@28f1e35b 
+2020-01-25 16:07:38,956 [14870102]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@d48793c 
+2020-01-25 16:07:38,971 [14870117]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4ff5df32 
+2020-01-25 16:07:38,971 [14870117]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@66b2aeb7 
+2020-01-25 16:07:38,987 [14870133]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1dbac75c 
+2020-01-25 16:07:38,987 [14870133]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@77d54161 
+2020-01-25 16:07:38,987 [14870133]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1b24df7f 
+2020-01-25 16:07:39,002 [14870148]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7c8ffb07 
+2020-01-25 16:07:39,002 [14870148]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5ec3d6c6 
+2020-01-25 16:07:39,018 [14870164]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@75063a3f 
+2020-01-25 16:07:39,018 [14870164]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@77fdd669 
+2020-01-25 16:07:39,034 [14870180]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@2e6d6c60 
+2020-01-25 16:07:39,034 [14870180]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@756bb512 
+2020-01-25 16:07:39,049 [14870195]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3139adc 
+2020-01-25 16:07:39,049 [14870195]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4206a567 
+2020-01-25 16:07:39,065 [14870211]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@103073db 
+2020-01-25 16:07:39,065 [14870211]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@67630fea 
+2020-01-25 16:07:39,065 [14870211]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@611de60b 
+2020-01-25 16:07:39,080 [14870226]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b80eb5b 
+2020-01-25 16:07:39,080 [14870226]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@29755c2c 
+2020-01-25 16:07:39,096 [14870242]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3d700865 
+2020-01-25 16:07:39,096 [14870242]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1f8ca735 
+2020-01-25 16:07:39,112 [14870258]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@432dcc27 
+2020-01-25 16:07:39,112 [14870258]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@16fc9a4f 
+2020-01-25 16:07:39,143 [14870289]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@38aa658f 
+2020-01-25 16:07:39,143 [14870289]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7feb90f8 
+2020-01-25 16:07:39,143 [14870289]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4d011737 
+2020-01-25 16:07:41,962 [14873108]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1db67d20 
+2020-01-25 16:07:41,977 [14873123]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6ea6830a 
+2020-01-25 16:07:41,977 [14873123]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6f72e07 
+2020-01-25 16:07:41,977 [14873123]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5a616824 
+2020-01-25 16:07:41,993 [14873139]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@330f61d0 
+2020-01-25 16:07:41,993 [14873139]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@87ccbff 
+2020-01-25 16:07:42,009 [14873155]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@59a3098d 
+2020-01-25 16:07:42,009 [14873155]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1a714cac 
+2020-01-25 16:07:42,025 [14873171]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4c190e4b 
+2020-01-25 16:07:42,040 [14873186]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3e5195f 
+2020-01-25 16:07:42,040 [14873186]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1dcdcd6f 
+2020-01-25 16:07:42,056 [14873202]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7901d85f 
+2020-01-25 16:07:42,056 [14873202]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@57a997c0 
+2020-01-25 16:07:42,056 [14873202]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@293c72e8 
+2020-01-25 16:07:42,087 [14873233]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@22d8967c 
+2020-01-25 16:07:42,087 [14873233]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@735eb687 
+2020-01-25 16:07:42,102 [14873248]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5f51b7bf 
+2020-01-25 16:07:42,118 [14873264]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@503c3998 
+2020-01-25 16:07:42,134 [14873280]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@3934e805 
+2020-01-25 16:07:42,134 [14873280]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@4b8ace63 
+2020-01-25 16:07:42,149 [14873295]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6302da58 
+2020-01-25 16:07:42,182 [14873328]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@68f54671 
+2020-01-25 16:07:42,182 [14873328]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@61f6997a 
+2020-01-25 16:07:42,198 [14873344]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@6c37a832 
+2020-01-25 16:07:42,214 [14873360]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@249186e5 
+2020-01-25 16:07:42,276 [14873422]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@760108e7 
+2020-01-25 16:07:42,338 [14873484]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5a1d633f 
+2020-01-25 16:07:42,401 [14873547]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@26079ee9 
+2020-01-25 16:07:42,464 [14873610]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@59475a08 
+2020-01-25 16:07:42,526 [14873672]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@1e5a37cc 
+2020-01-25 16:07:42,589 [14873735]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@5df2105c 
+2020-01-25 16:07:42,651 [14873797]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7a990507 
+2020-01-25 16:07:42,682 [14873828]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@528b156d 
+2020-01-25 16:07:42,729 [14873875]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@336199cf 
+2020-01-25 16:07:42,763 [14873909]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@7dbe9ace 
+2020-01-25 16:07:42,763 [14873909]   INFO - ignSurface.GridInsertProcessor - GridInsertProcessor.processDragEvent(): dropLocation com.intellij.uiDesigner.radComponents.RadXYLayoutManager$MyDropLocation@633897f8 
+2020-01-25 16:07:42,779 [14873925]   INFO - rface.DesignDropTargetListener - Removing component 27dc6 with constraints GridConstraints (row=0, col=0, rowspan=1, colspan=1) 
+2020-01-25 16:16:32,673 [15403819]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:16:32,673 [15403819]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:16:35,113 [15406259]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 2440 ms: 0 min 2sec 
+2020-01-25 16:16:35,129 [15406275]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:16:35,499 [15406645]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:16:35,545 [15406691]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:16:35,545 [15406691]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:16:35,545 [15406691]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:16:35,874 [15407020]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=University_Management_System, containerState=ACTIVE, componentStore=C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System) com.intellij.coverage.CoverageDataManagerImpl took 16 ms 
+2020-01-25 16:16:50,953 [15422099]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 15 ms 
+2020-01-25 16:16:51,484 [15422630]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Outdated stub in index: file://C:/Users/This PC/OneDrive/Desktop/projects/University_Management_System/
+2020-01-25 16:16:51,484 [15422630]  ERROR - j.psi.stubs.StubTreeLoaderImpl - IntelliJ IDEA 2019.3.1  Build #IU-193.5662.53 
+2020-01-25 16:16:51,484 [15422630]  ERROR - j.psi.stubs.StubTreeLoaderImpl - JDK: 11.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-01-25 16:16:51,484 [15422630]  ERROR - j.psi.stubs.StubTreeLoaderImpl - OS: Windows 10 
+2020-01-25 16:16:51,484 [15422630]  ERROR - j.psi.stubs.StubTreeLoaderImpl - Last Action: Run 
+2020-01-25 16:17:07,211 [15438357]   INFO - rationStore.ComponentStoreImpl - Saving appFindSettings took 16 ms 
+2020-01-25 16:17:21,267 [15452413]   INFO - rationStore.ComponentStoreImpl - Saving appProjectJdkTable took 16 ms 
+2020-01-25 16:18:00,558 [15491704]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=University_Management_System, containerState=ACTIVE, componentStore=C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System) VcsDirectoryMappings took 16 ms 
+2020-01-25 16:18:22,939 [15514085]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 15 ms 
+2020-01-25 16:18:38,982 [15530128]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=University_Management_System, containerState=ACTIVE, componentStore=C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System) RunManager took 16 ms 
+2020-01-25 16:18:58,350 [15549496]   INFO - rationStore.ComponentStoreImpl - Saving appFileTypeManager took 16 ms 
+2020-01-25 16:21:26,285 [15697431]   INFO - rationStore.ComponentStoreImpl - Saving appXDebuggerSettings took 16 ms 
+2020-01-25 16:21:26,347 [15697493]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:21:26,347 [15697493]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:21:31,790 [15702936]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 5443 ms: 0 min 5sec 
+2020-01-25 16:21:31,790 [15702936]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:21:32,106 [15703252]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:21:32,153 [15703299]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:21:32,153 [15703299]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:21:32,153 [15703299]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:22:24,711 [15755857]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:22:24,711 [15755857]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:22:26,539 [15757685]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 1828 ms: 0 min 1sec 
+2020-01-25 16:22:26,539 [15757685]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:22:26,875 [15758021]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:22:26,922 [15758068]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:22:26,922 [15758068]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:22:26,922 [15758068]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:22:27,281 [15758427]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=University_Management_System, containerState=ACTIVE, componentStore=C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System) WindowStateProjectService took 15 ms 
+2020-01-25 16:22:47,654 [15778800]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=University_Management_System, containerState=ACTIVE, componentStore=C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System) libraryTable took 16 ms 
+2020-01-25 16:23:34,939 [15826085]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:23:34,939 [15826085]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:23:35,741 [15826887]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 802 ms: 0 min 0sec 
+2020-01-25 16:23:35,741 [15826887]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:23:36,058 [15827204]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:23:36,111 [15827257]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:23:36,111 [15827257]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:23:36,111 [15827257]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:25:04,960 [15916106]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:25:04,960 [15916106]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:25:06,741 [15917887]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 1781 ms: 0 min 1sec 
+2020-01-25 16:25:06,741 [15917887]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:25:07,085 [15918231]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:25:07,148 [15918294]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:25:07,148 [15918294]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:25:07,148 [15918294]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:26:30,741 [16001887]   INFO - rationStore.ComponentStoreImpl - Saving appUpdatesConfigurable took 15 ms 
+2020-01-25 16:26:30,773 [16001919]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:26:30,773 [16001919]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:26:32,600 [16003746]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 3 took 1827 ms: 0 min 1sec 
+2020-01-25 16:26:32,616 [16003762]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:26:32,952 [16004098]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:26:32,999 [16004145]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:26:32,999 [16004145]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:26:32,999 [16004145]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:29:01,922 [16153068]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:29:01,938 [16153084]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:29:03,937 [16155083]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 3 took 2015 ms: 0 min 2sec 
+2020-01-25 16:29:03,953 [16155099]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:29:04,275 [16155421]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:29:04,338 [16155484]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:29:04,338 [16155484]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:29:04,338 [16155484]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:29:34,640 [16185786]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:29:34,640 [16185786]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:29:36,389 [16187535]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 1765 ms: 0 min 1sec 
+2020-01-25 16:29:36,389 [16187535]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:29:36,727 [16187873]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:29:36,789 [16187935]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:29:36,789 [16187935]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:29:36,789 [16187935]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:30:03,307 [16214453]   INFO - rationStore.ComponentStoreImpl - Saving appExportableFileTemplateSettings took 16 ms 
+2020-01-25 16:30:27,910 [16239056]   INFO - rationStore.ComponentStoreImpl - Saving appRecentProjectsManager took 16 ms 
+2020-01-25 16:31:43,621 [16314767]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:31:43,621 [16314767]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:31:45,527 [16316673]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 1906 ms: 0 min 1sec 
+2020-01-25 16:31:45,527 [16316673]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:31:45,842 [16316988]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:31:45,904 [16317050]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:31:45,904 [16317050]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:31:45,904 [16317050]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:32:14,661 [16345807]   INFO - ij.compiler.impl.CompileDriver - COMPILATION STARTED (BUILD PROCESS) 
+2020-01-25 16:32:14,661 [16345807]   INFO - j.compiler.server.BuildManager - Using preloaded build process to compile C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System 
+2020-01-25 16:32:16,494 [16347640]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 2 took 1833 ms: 0 min 1sec 
+2020-01-25 16:32:16,510 [16347656]   INFO - s.CompilerReferenceServiceBase - backward reference index reader is opened 
+2020-01-25 16:32:16,833 [16347979]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: C:/Program Files/JetBrains/IntelliJ IDEA 2019.3.1/plugins/java/lib/jps-launcher.jar;C:/Program Files/Java/jdk1.8.0_181/lib/tools.jar 
+2020-01-25 16:32:16,880 [16348026]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". 
+2020-01-25 16:32:16,880 [16348026]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: Defaulting to no-operation (NOP) logger implementation 
+2020-01-25 16:32:16,880 [16348026]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details. 
+2020-01-25 16:32:51,743 [16382889]   INFO - rationStore.ComponentStoreImpl - Saving appParameterNameHintsSettings took 15 ms 
+2020-01-25 16:32:57,617 [16388763]   INFO - rationStore.ComponentStoreImpl - Saving Project (name=University_Management_System, containerState=ACTIVE, componentStore=C:\Users\This PC\OneDrive\Desktop\projects\University_Management_System\University_Management_System) RunManager took 15 ms 
+2020-01-25 16:32:58,258 [16389404]   INFO - Types.impl.FileTypeManagerImpl - 17 auto-detected files. Detection took 316 ms 
+2020-01-25 16:32:59,151 [16390297]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-01-25 16:32:59,154 [16390300]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-01-25 16:32:59,157 [16390303]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-01-25 16:32:59,188 [16390334]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-01-25 16:32:59,188 [16390334]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-01-25 16:32:59,871 [16391017]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-01-25 16:32:59,871 [16391017]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-01-25 16:32:59,949 [16391095]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-01-25 16:32:59,949 [16391095]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-01-25 16:32:59,965 [16391111]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-01-25 17:32:32,542 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IU-193.5662.53, 18 Dec 2019 10:39) 
+2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10-b520.17 (JetBrains s.r.o) 
+2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10-b520.17 (OpenJDK 64-Bit Server VM) 
+2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms128m -Xmx1009m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djb.vmOptionsFile=C:\Users\This PC\.IntelliJIdea2019.3\config\idea64.exe.vmoptions -Djava.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr\\bin\server -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=IntelliJIdea2019.3 -XX:ErrorFile=C:\Users\This PC\java_error_in_idea_%p.log -XX:HeapDumpPath=C:\Users\This PC\java_error_in_idea.hprof 
+2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-01-25 17:32:33,794 [   1252]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 1221 ms 
+2020-01-25 17:32:45,097 [  12555]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-01-25 17:32:48,268 [  15726]   INFO - llij.ide.plugins.PluginManager - Plugin "Gradle Extension" misses optional descriptor profiler-java-gradle.xml 
+2020-01-25 17:32:54,642 [  22100]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@22452e11[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@73f56f50 
+
+2020-01-25 17:33:09,230 [  36688]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-01-25 17:33:09,339 [  36797]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=956 
+2020-01-25 17:33:10,229 [  37687]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\bin\fsnotifier64.exe 
+2020-01-25 17:33:10,354 [  37812]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-01-25 17:33:11,823 [  39281]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-01-25 17:33:12,542 [  40000]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-01-25 17:33:12,854 [  40312]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2020-01-25 17:33:12,854 [  40312]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
+2020-01-25 17:33:12,932 [  40390]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-01-25 17:33:13,713 [  41171]   INFO - ateSettings.impl.UpdateChecker - www.jetbrains.com 
