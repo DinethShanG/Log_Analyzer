@@ -14,7 +14,13 @@ public class LastAccessFileReader {
         try {
             File file=new File(LASTACCESSFILENAME);
             Scanner reader=new Scanner(file);
-            lastAccesstime=reader.nextLine();
+
+            if(file.length()!=0)// checking empty file
+            { lastAccesstime=reader.nextLine();
+            }
+            else{
+                System.out.println("No any error in the Log file");
+            }
 
         }catch (IOException e){
             System.out.println("error :"+e);

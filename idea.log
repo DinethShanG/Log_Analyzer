@@ -422,19 +422,18 @@
 2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10-b520.17 (JetBrains s.r.o) 
 2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10-b520.17 (OpenJDK 64-Bit Server VM) 
 2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms128m -Xmx1009m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djb.vmOptionsFile=C:\Users\This PC\.IntelliJIdea2019.3\config\idea64.exe.vmoptions -Djava.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr\\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\jbr\\bin\server -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=IntelliJIdea2019.3 -XX:ErrorFile=C:\Users\This PC\java_error_in_idea_%p.log -XX:HeapDumpPath=C:\Users\This PC\java_error_in_idea.hprof 
-2020-01-25 17:32:32,635 [     93]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-01-25 17:32:32,635 [     93]   ERROR -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
 2020-01-25 17:32:33,794 [   1252]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 1221 ms 
 2020-01-25 17:32:45,097 [  12555]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
 2020-01-25 17:32:48,268 [  15726]   INFO - llij.ide.plugins.PluginManager - Plugin "Gradle Extension" misses optional descriptor profiler-java-gradle.xml 
 2020-01-25 17:32:54,642 [  22100]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@22452e11[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@73f56f50 
-
 2020-01-25 17:33:09,230 [  36688]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
 2020-01-25 17:33:09,339 [  36797]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=956 
 2020-01-25 17:33:10,229 [  37687]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\bin\fsnotifier64.exe 
 2020-01-25 17:33:10,354 [  37812]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
 2020-01-25 17:33:11,823 [  39281]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
 2020-01-25 17:33:12,542 [  40000]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
-2020-01-25 17:33:12,854 [  40312]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
+2020-01-25 17:33:12,854 [  40312]   ERROR - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
 2020-01-25 17:33:12,854 [  40312]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
 2020-01-25 17:33:12,932 [  40390]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
-2020-01-25 17:33:13,713 [  41171]   INFO - ateSettings.impl.UpdateChecker - www.jetbrains.com 
+2020-01-25 17:33:13,713 [  41171]   ERROR - ateSettings.impl.UpdateChecker - www.jetbrains.com 
