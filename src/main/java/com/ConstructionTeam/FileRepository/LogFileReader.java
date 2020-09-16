@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 
 public class LogFileReader {
@@ -32,6 +33,8 @@ public class LogFileReader {
     }
 
     public ArrayList<ErrorData> getData(String path, String previousAccessedDateTime){
+        String currentDateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Calendar.getInstance().getTime());
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         ArrayList <ErrorData> errorDataList = new ArrayList<>();
         BufferedReader bufferedReader = null;
         try {
@@ -53,18 +56,19 @@ public class LogFileReader {
                 }
 
                 String lastDateTime = line.substring(0, line.indexOf(","));
-                if(dateConversion(lastDateTime).compareTo(dateConversion(previousAccessedDateTime))<0)
                     while (line != null) {
-                        if (line.contains("ERROR") ) {
+                        if (line.contains("ERROR") && sdf.parse(lastDateTime).after(sdf.parse(previousAccessedDateTime))) {
                             ErrorData errorData;
                             errorData = createErrorData(line);
                             errorDataList.add(errorData);
-                            lastDateTime = line.substring(0, line.indexOf(","));
                         }
                         line = bufferedReader.readLine();
+                        if(line!=null) {
+                            lastDateTime = line.substring(0, line.indexOf(","));
+                        }
                     }
             }
-        } catch (IOException e) {
+        } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
         try {
@@ -72,8 +76,8 @@ public class LogFileReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        /*LastAccessFileWriter lastAccessFileWriter = new LastAccessFileWriter();
-        lastAccessFileWriter.updateLastAccessDateTime(currentDateTime);*/
+        LastAccessFileWriter lastAccessFileWriter = new LastAccessFileWriter();
+        lastAccessFileWriter.updateLastAccessDateTime(currentDateTime);
         return errorDataList;
 
 

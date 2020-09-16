@@ -8,7 +8,7 @@ public class LastAccessFileWriter {
     public void updateLastAccessDateTime(String lastAccessDateTime) {
         FileWriter writer = null;
         try {
-            writer = new FileWriter("src/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
+            writer = new FileWriter("/home/dsgimhana/Documents/Log_Analyzer/src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }

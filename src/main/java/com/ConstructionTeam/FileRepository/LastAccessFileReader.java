@@ -7,12 +7,13 @@ import java.io.IOException;
 public class LastAccessFileReader {
     private String lastAccessDateTime;
 
-    public String getLastAccessDateTime(String lastAccessDateTimeFilePath) throws IOException {
+    public String getLastAccessDateTime() throws IOException {
+        String lastAccessFilePath = "/home/dsgimhana/Documents/Log_Analyzer/src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
         BufferedReader objReader = null;
         try {
             String strCurrentLine;
 
-            objReader = new BufferedReader(new FileReader(lastAccessDateTimeFilePath));
+            objReader = new BufferedReader(new FileReader(lastAccessFilePath));
 
             while ((strCurrentLine = objReader.readLine()) != null) {
 
