@@ -8,7 +8,7 @@ public class DBConnector {
     private Statement statement;
     public ResultSet resultSet;
 
-    //create constructor
+
     public DBConnector() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -20,20 +20,21 @@ public class DBConnector {
         }
     }
 
-    public void getData() {
+    public String  getData() {
+        String result = null;
         try {
 
             String query = "select * from email";
             resultSet = statement.executeQuery(query);
             System.out.println("Email from Database");
             while (resultSet.next()) {
-                String result = resultSet.getString("email");
+                result =resultSet.getString("email");
                 System.out.println(result);
 
             }
         } catch (Exception ex) {
             System.out.println();
         }
-
+        return result;
     }
 }
