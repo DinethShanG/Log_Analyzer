@@ -13,7 +13,7 @@ public class MySQL_CRUDOperator implements DB_CRUDOperator{
 
     }
 
-    public void deleteUser(String name) {
+    public void deleteUser(String name) {//remove
 
     }
 
