@@ -8,15 +8,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class MySQL_CRUDOperator implements DB_CRUDOperator{
-    private static Connection connection = new MySQLDBConnector().getDBConnection();
 
-
-
-    public ArrayList<User> getUserMailList() throws SQLException, ClassNotFoundException {
+    public ArrayList<User> getUserMailList() throws SQLException {
         String sqlQuery = "SELECT Name,Email FROM ContactDetails";
         Connection connection = new MySQLDBConnector().getDBConnection();
         ResultSet result = new MySQLResultGetter().getResult(connection,sqlQuery);
-        ArrayList<User> userDetails = new ArrayList<User>();
+        ArrayList<User> userDetails = new ArrayList<>();
         while (result.next()) {
             User user = new User(result.getString("Name"),result.getString("Email"));
             userDetails.add(user);

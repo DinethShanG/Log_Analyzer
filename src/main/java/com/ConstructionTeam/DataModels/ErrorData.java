@@ -26,9 +26,6 @@ public class ErrorData {
 
     }
 
-    public String getId() {
-        return id;
-    }
 
     public void setId(String line) {
         id = line.substring(line.indexOf("[")+1,line.indexOf("]"));
@@ -39,18 +36,11 @@ public class ErrorData {
         return title;
     }
 
-    public void setTitle(String line) {
-
-        this.title = title;
-    }
 
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String line) {
-        this.description = description;
-    }
 
     public void setTitleDescription(String line){
         String str;
