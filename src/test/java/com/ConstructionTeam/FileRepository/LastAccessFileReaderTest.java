@@ -10,7 +10,7 @@ public class LastAccessFileReaderTest {
     @Test
     public void should_return_last_access_date_and_time() throws IOException {
         LastAccessFileReader lastAccessFileReader=new LastAccessFileReader();
-        String lastAccessDateAndTime=lastAccessFileReader.getLastAccessDateTime("src/test/java/com/ConstructionTeam/FileRepository/LastAccessDateTimeTest.txt");
+        String lastAccessDateAndTime=lastAccessFileReader.getLastAccessDateTime("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt");
         assertEquals("2020-09-17 14:52:50",lastAccessDateAndTime);
     }
   

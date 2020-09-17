@@ -5,11 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class LastAccessFileWriter {
-    public void updateLastAccessDateTime(String lastAccessDateTime) {
+    public void updateLastAccessDateTime(String lastAccessDateTime,String filePath) {
         System.out.println(lastAccessDateTime);
         FileWriter writer = null;
         try {
-            writer = new FileWriter("src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
+            writer = new FileWriter(filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }

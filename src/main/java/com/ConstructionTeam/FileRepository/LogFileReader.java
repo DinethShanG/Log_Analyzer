@@ -63,7 +63,7 @@ public class LogFileReader {
             e.printStackTrace();
         }
         LastAccessFileWriter lastAccessFileWriter = new LastAccessFileWriter();
-        lastAccessFileWriter.updateLastAccessDateTime(currentDateTime);
+        lastAccessFileWriter.updateLastAccessDateTime(currentDateTime,"src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
         return errorDataList;
 
 
