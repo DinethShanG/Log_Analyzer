@@ -8,7 +8,7 @@ public class LastAccessFileReader {
     private String lastAccessDateTime;
 
     public String getLastAccessDateTime() {
-        String lastAccessFilePath = "/home/dsgimhana/Desktop/Log_Analyzer/src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
+        String lastAccessFilePath = "src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
         BufferedReader objReader = null;
         try {
             String strCurrentLine;
