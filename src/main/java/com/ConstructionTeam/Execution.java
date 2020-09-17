@@ -24,7 +24,7 @@ public class Execution {
         // Last Access file Read
         LastAccessFileReader lastAccessFileReader = new LastAccessFileReader();
         try {
-            lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime();
+            lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime("src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
         } catch (IOException e) {
             System.out.println("Issue in Last Access Date Time File");
         }
