@@ -6,13 +6,13 @@ import java.io.IOException;
 
 public class LastAccessFileWriter {
     public void updateLastAccessDateTime(String lastAccessDateTime) {
-        System.out.println(lastAccessDateTime);
         FileWriter writer = null;
         try {
             writer = new FileWriter("src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
+        assert writer != null;
         BufferedWriter buffer = new BufferedWriter(writer);
         try {
             buffer.write(lastAccessDateTime);

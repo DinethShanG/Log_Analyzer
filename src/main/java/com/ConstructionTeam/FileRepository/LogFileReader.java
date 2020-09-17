@@ -1,6 +1,7 @@
 package com.ConstructionTeam.FileRepository;
 
 import com.ConstructionTeam.DataModels.ErrorData;
+import com.ConstructionTeam.DataModels.ErrorDataCollector;
 import com.ConstructionTeam.DataModels.ErrorDataModelCreator;
 
 import java.io.BufferedReader;
@@ -22,11 +23,14 @@ public class LogFileReader {
         try {
             bufferedReader = new BufferedReader(new FileReader(path));
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("Log File is not Founded");
         }
         try {
-            if (bufferedReader.readLine() == null) {
-                System.out.println("No errors, and log file empty");
+            if (bufferedReader == null){
+                System.exit(0);
+            }
+            else if (bufferedReader.readLine() == null) {
+                System.out.println("Log file is empty");
             }
 
             else {
@@ -37,17 +41,22 @@ public class LogFileReader {
                     e.printStackTrace();
                 }
 
+                assert line != null;
                 String lastDateTime = line.substring(0, line.indexOf(","));
                     while (line != null) {
-                        if (line.contains("ERROR")) {
-                            if(sdf.parse(lastDateTime).after(sdf.parse(previousAccessedDateTime))) {
-                                ErrorData errorData;
-                                ErrorDataModelCreator errorDataModelCreator = new ErrorDataModelCreator();
-
-                                errorData = errorDataModelCreator.createErrorData(line);
-                                errorDataList.add(errorData);
+                        if (previousAccessedDateTime !=null){
+                            if (line.contains("ERROR") && sdf.parse(lastDateTime).after(sdf.parse(previousAccessedDateTime)) ) {
+                                ErrorDataCollector errorDataCollector = new ErrorDataCollector();
+                                errorDataCollector.collectErrorData(errorDataList,line);
                             }
                         }
+                        else {
+                            if (line.contains("ERROR")) {
+                                ErrorDataCollector errorDataCollector = new ErrorDataCollector();
+                                errorDataCollector.collectErrorData(errorDataList,line);
+                            }
+                        }
+
                         line = bufferedReader.readLine();
                         if(line!=null) {
                             lastDateTime = line.substring(0, line.indexOf(","));
@@ -58,6 +67,7 @@ public class LogFileReader {
             e.printStackTrace();
         }
         try {
+            assert bufferedReader != null;
             bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -20,14 +20,10 @@ public class Execution {
         logFilePath = ui.executeUI();
 
         // Code Start Here
-        String lastAccessDateTime = new String();
+        String lastAccessDateTime;
         // Last Access file Read
         LastAccessFileReader lastAccessFileReader = new LastAccessFileReader();
-        try {
-            lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime();
-        } catch (IOException e) {
-            System.out.println("Issue in Last Access Date Time File");
-        }
+        lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime();
         // Log file Read
         LogFileReader logFileReader = new LogFileReader();
         ArrayList<ErrorData> errorList;
@@ -39,8 +35,6 @@ public class Execution {
             userDetails = new MySQL_CRUDOperator().getUserMailList();
         } catch (SQLException sqlException) {
             sqlException.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
         }
         EmailBodyCreator emailBodyCreater = new EmailBodyCreator();
         StringBuilder emailBody = emailBodyCreater.createMailBody(errorList);
