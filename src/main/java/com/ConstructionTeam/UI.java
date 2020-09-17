@@ -7,7 +7,7 @@ public class UI {
         String logFilePath = null;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please Enter the Log File path:");
-        scanner.next(logFilePath);
+        logFilePath = scanner.next();
         return logFilePath;
     }
 }

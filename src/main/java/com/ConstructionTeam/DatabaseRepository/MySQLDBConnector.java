@@ -24,26 +24,4 @@ public class MySQLDBConnector {
         return conn;
     }
 
-    public ResultSet getResult (Connection conn, String sqlQuery){
-        try {
-            stmt = conn.createStatement();
-        } catch (SQLException sqlException) {
-            System.out.println(sqlQuery);;
-        }
-        try {
-            result = stmt.executeQuery(sqlQuery);
-        } catch (SQLException sqlException) {
-            System.out.println(sqlException);;
-        }
-        return result;
-    }
-
-    public void closeDBConnection(Connection connection) {
-
-        try {
-            connection.close();
-        } catch (SQLException sqlException) {
-            System.out.println(sqlException);
-        }
-    }
 }

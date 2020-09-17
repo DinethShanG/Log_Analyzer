@@ -427,7 +427,6 @@
 2020-01-25 17:32:45,097 [  12555]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
 2020-01-25 17:32:48,268 [  15726]   INFO - llij.ide.plugins.PluginManager - Plugin "Gradle Extension" misses optional descriptor profiler-java-gradle.xml 
 2020-01-25 17:32:54,642 [  22100]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@22452e11[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@73f56f50 
-
 2020-01-25 17:33:09,230 [  36688]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
 2020-01-25 17:33:09,339 [  36797]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=956 
 2020-01-25 17:33:10,229 [  37687]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\bin\fsnotifier64.exe 

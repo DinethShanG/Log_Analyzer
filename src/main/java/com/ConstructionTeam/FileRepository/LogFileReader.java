@@ -39,12 +39,14 @@ public class LogFileReader {
 
                 String lastDateTime = line.substring(0, line.indexOf(","));
                     while (line != null) {
-                        if (line.contains("ERROR") && sdf.parse(lastDateTime).after(sdf.parse(previousAccessedDateTime))) {
-                            ErrorData errorData;
-                            ErrorDataModelCreator errorDataModelCreator = new ErrorDataModelCreator();
+                        if (line.contains("ERROR")) {
+                            if(sdf.parse(lastDateTime).after(sdf.parse(previousAccessedDateTime))) {
+                                ErrorData errorData;
+                                ErrorDataModelCreator errorDataModelCreator = new ErrorDataModelCreator();
 
-                            errorData = errorDataModelCreator.createErrorData(line);
-                            errorDataList.add(errorData);
+                                errorData = errorDataModelCreator.createErrorData(line);
+                                errorDataList.add(errorData);
+                            }
                         }
                         line = bufferedReader.readLine();
                         if(line!=null) {
