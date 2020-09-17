@@ -1,6 +1,7 @@
 package com.ConstructionTeam.FileRepository;
 
 import com.ConstructionTeam.DataModels.ErrorData;
+import com.ConstructionTeam.DataModels.ErrorDataModelCreator;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -13,25 +14,6 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class LogFileReader {
-    public Date dateConversion(String strDate){
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date date = new Date();
-        try {
-            date = simpleDateFormat.parse(strDate);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return date;
-    }
-
-    public ErrorData createErrorData(String line){
-        ErrorData errorData = new ErrorData();
-        errorData.setDateTime(line);
-        errorData.setId(line);
-        errorData.setTitleDescription(line);
-        return errorData;
-    }
-
     public ArrayList<ErrorData> getData(String path, String previousAccessedDateTime){
         String currentDateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Calendar.getInstance().getTime());
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -59,7 +41,9 @@ public class LogFileReader {
                     while (line != null) {
                         if (line.contains("ERROR") && sdf.parse(lastDateTime).after(sdf.parse(previousAccessedDateTime))) {
                             ErrorData errorData;
-                            errorData = createErrorData(line);
+                            ErrorDataModelCreator errorDataModelCreator = new ErrorDataModelCreator();
+
+                            errorData = errorDataModelCreator.createErrorData(line);
                             errorDataList.add(errorData);
                         }
                         line = bufferedReader.readLine();

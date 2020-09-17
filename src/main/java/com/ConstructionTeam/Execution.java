@@ -13,12 +13,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Execution {
-    final static String logFilePath = "/home/dsgimhana/Documents/Local Repository/Log_Analyzer/src/main/java/log_data.log";
     public void excute(){
 
-        /*String logFilePath;
+        String logFilePath;
         UI ui = new UI();
-        logFilePath = ui.executeUI();*/
+        logFilePath = ui.executeUI();
 
         // Code Start Here
         String lastAccessDateTime = new String();
