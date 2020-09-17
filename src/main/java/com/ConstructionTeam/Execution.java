@@ -39,7 +39,7 @@ public class Execution {
             userDetails = new MySQL_CRUDOperator().getUserMailList();
         } catch (SQLException sqlException) {
             sqlException.printStackTrace();
-        } catch (ClassNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         EmailBodyCreator emailBodyCreater = new EmailBodyCreator();

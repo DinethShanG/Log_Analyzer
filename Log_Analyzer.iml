@@ -73,5 +73,7 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient-cache:4.5.3" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1.1" level="project" />
+    <orderEntry type="library" name="java" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.5-bin" level="project" />
   </component>
 </module>
