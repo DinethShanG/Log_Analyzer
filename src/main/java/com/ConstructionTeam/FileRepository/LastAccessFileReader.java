@@ -32,6 +32,12 @@ public class LastAccessFileReader {
                 ex.printStackTrace();
             }
         }
-        return lastAccessDateTime;
+        if (lastAccessDateTime != null){
+            return lastAccessDateTime;
+        }
+        else{
+            return null;
+        }
+
     }
 }

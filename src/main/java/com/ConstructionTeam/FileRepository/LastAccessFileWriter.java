@@ -13,6 +13,7 @@ public class LastAccessFileWriter {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        assert writer != null;
         BufferedWriter buffer = new BufferedWriter(writer);
         try {
             buffer.write(lastAccessDateTime);

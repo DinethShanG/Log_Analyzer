@@ -13,7 +13,7 @@ public class LogFileReaderTest {
     LogFileReader logFileReader = new LogFileReader();
     ArrayList<ErrorData> actualErrorDataList = logFileReader.getData("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log","2020-01-25 16:07:06");
     ArrayList<ErrorData> expectedErrorDataList=new ArrayList<ErrorData>();
-    expectedErrorDataList.add();
+    //expectedErrorDataList.add();
   }
 
 }
