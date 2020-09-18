@@ -45,7 +45,6 @@ public class LogFileReader{
                     }
                     LastAccessFileWriter lastAccessFileWriter = new LastAccessFileWriter();
                     lastAccessFileWriter.updateLastAccessDateTime(currentDateTime);
-                    System.out.println(errorDataList);
                     return errorDataList;
             }
         }
