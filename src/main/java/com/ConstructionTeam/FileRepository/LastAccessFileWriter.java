@@ -5,8 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class LastAccessFileWriter {
-    public void updateLastAccessDateTime(String lastAccessDateTime,String filePath) {
-        System.out.println(lastAccessDateTime);
+    public void updateLastAccessDateTime(String lastAccessDateTime, String filePath) {
         FileWriter writer = null;
         try {
             writer = new FileWriter(filePath);

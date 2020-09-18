@@ -1,21 +1,12 @@
 package com.ConstructionTeam.DataModels;
 
-public class ErrorData {
+public class ErrorData implements DataModel{
     private String dateTime;
     private String id;
     private String title;
     private String description;
     private String [] readTitleDescription;
 
-    public ErrorData() {
-    }
-
-    public ErrorData(String dateTime, String id, String title, String description) {
-        this.dateTime = dateTime;
-        this.id = id;
-        this.title = title;
-        this.description = description;
-    }
 
     public String getDateTime() {
         return dateTime;

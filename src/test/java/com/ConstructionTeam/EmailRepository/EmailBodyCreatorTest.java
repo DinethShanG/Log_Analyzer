@@ -13,8 +13,8 @@ public class EmailBodyCreatorTest {
     public void should_return_email_body()
     {
         ArrayList<ErrorData> errorList=new ArrayList<>();
-        errorList.add(new ErrorData("2020-01-25 16:16:51","15422630","j.psi.stubs.StubTreeLoaderImpl","Outdated stub in index: file://C:/Users/This PC/OneDrive/Desktop/projects/University_Management_System/"));
-        errorList.add(new ErrorData("2020-01-25 16:16:51","15422630","j.psi.stubs.StubTreeLoaderImpl","IntelliJ IDEA 2019.3.1  Build #IU-193.5662.53"));
+       // errorList.add(new ErrorData("2020-01-25 16:16:51","15422630","j.psi.stubs.StubTreeLoaderImpl","Outdated stub in index: file://C:/Users/This PC/OneDrive/Desktop/projects/University_Management_System/"));
+        //errorList.add(new ErrorData("2020-01-25 16:16:51","15422630","j.psi.stubs.StubTreeLoaderImpl","IntelliJ IDEA 2019.3.1  Build #IU-193.5662.53"));
 
         EmailBodyCreator emailBodyCreator=new EmailBodyCreator();
         StringBuilder actualEmailBody=emailBodyCreator.createMailBody(errorList);

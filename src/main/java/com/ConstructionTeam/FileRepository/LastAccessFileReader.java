@@ -4,24 +4,19 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class LastAccessFileReader {
+public class LastAccessFileReader  {
     private String lastAccessDateTime;
 
     public String getLastAccessDateTime(String lastAccessFilePath) throws IOException {
         BufferedReader objReader = null;
+        com.ConstructionTeam.FileRepository.FileReader bufferFileReader = new BufferFileReader();
+        BufferedReader bufferedReader = bufferFileReader.readFile(lastAccessFilePath);
+        String strCurrentLine = bufferedReader.readLine();
         try {
-            String strCurrentLine;
-
-            objReader = new BufferedReader(new FileReader(lastAccessFilePath));
-
-            while ((strCurrentLine = objReader.readLine()) != null) {
+            while ((strCurrentLine!= null)) {
 
                 lastAccessDateTime = strCurrentLine;
             }
-
-        } catch (IOException e) {
-
-            e.printStackTrace();
 
         } finally {
 

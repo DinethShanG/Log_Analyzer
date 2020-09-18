@@ -6,6 +6,7 @@ import com.ConstructionTeam.DatabaseRepository.MySQL_CRUDOperator;
 import com.ConstructionTeam.EmailRepository.EmailBodyCreator;
 import com.ConstructionTeam.EmailRepository.MailgunEmailSender;
 import com.ConstructionTeam.FileRepository.LastAccessFileReader;
+import com.ConstructionTeam.FileRepository.LastAccessFileWriter;
 import com.ConstructionTeam.FileRepository.LogFileReader;
 
 import java.io.IOException;
@@ -13,25 +14,27 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Execution {
-    public void excute(){
+    public void excute() throws IOException {
 
         String logFilePath;
         UI ui = new UI();
         logFilePath = ui.executeUI();
 
         // Code Start Here
-        String lastAccessDateTime = new String();
+        String lastAccessDateTime;
+
         // Last Access file Read
         LastAccessFileReader lastAccessFileReader = new LastAccessFileReader();
-        try {
-            lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime("src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
-        } catch (IOException e) {
-            System.out.println("Issue in Last Access Date Time File");
-        }
+        lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime("src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt");
+
         // Log file Read
         LogFileReader logFileReader = new LogFileReader();
-        ArrayList<ErrorData> errorList;
-        errorList = logFileReader.getData(logFilePath,lastAccessDateTime);
+        ArrayList<ErrorData> errorList = null;
+        try {
+            errorList = logFileReader.getData(logFilePath,lastAccessDateTime);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         // Get Mail List
         ArrayList <User> userDetails = new ArrayList<>();
@@ -39,8 +42,6 @@ public class Execution {
             userDetails = new MySQL_CRUDOperator().getUserMailList();
         } catch (SQLException sqlException) {
             sqlException.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
         }
         EmailBodyCreator emailBodyCreater = new EmailBodyCreator();
         StringBuilder emailBody = emailBodyCreater.createMailBody(errorList);
