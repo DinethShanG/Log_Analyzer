@@ -8,7 +8,7 @@ import kong.unirest.UnirestException;
 
 import java.util.Collections;
 
-public class MailgunEmailSender {
+public class MailgunEmailSender implements EmailSender  {
     private static final String API_KEY = "f2d305922076da912e519c023b6290ce-d5e69b0b-2f97f4f7";
     private static final String YOUR_DOMAIN_NAME = "https://api.mailgun.net/v3/sandbox9d1f84352136426db7937366d3260127.mailgun.org";
 

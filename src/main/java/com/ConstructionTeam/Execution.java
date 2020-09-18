@@ -6,6 +6,7 @@ import com.ConstructionTeam.DatabaseRepository.MySQL_CRUDOperator;
 import com.ConstructionTeam.EmailRepository.EmailBodyCreator;
 import com.ConstructionTeam.EmailRepository.MailgunEmailSender;
 import com.ConstructionTeam.FileRepository.LastAccessFileReader;
+import com.ConstructionTeam.FileRepository.LastAccessFileWriter;
 import com.ConstructionTeam.FileRepository.LogFileReader;
 
 import java.io.IOException;
@@ -13,7 +14,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Execution {
-    public void excute(){
+    public void excute() throws IOException {
 
         String logFilePath;
         UI ui = new UI();
@@ -26,8 +27,12 @@ public class Execution {
         lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime();
         // Log file Read
         LogFileReader logFileReader = new LogFileReader();
-        ArrayList<ErrorData> errorList;
-        errorList = logFileReader.getData(logFilePath,lastAccessDateTime);
+        ArrayList<ErrorData> errorList = null;
+        try {
+            errorList = logFileReader.getData(logFilePath,lastAccessDateTime);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         // Get Mail List
         ArrayList <User> userDetails = new ArrayList<>();
