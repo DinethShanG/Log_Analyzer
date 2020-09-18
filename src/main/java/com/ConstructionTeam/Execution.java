@@ -23,13 +23,15 @@ public class Execution {
         // Code Start Here
         String lastAccessDateTime;
         // Last Access file Read
+        String lastAccessFilePath = "src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
         LastAccessFileReader lastAccessFileReader = new LastAccessFileReader();
-        lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime();
+        lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime(lastAccessFilePath);
+        System.out.println(lastAccessDateTime);
         // Log file Read
         LogFileReader logFileReader = new LogFileReader();
         ArrayList<ErrorData> errorList = null;
         try {
-            errorList = logFileReader.getData(logFilePath,lastAccessDateTime);
+            errorList = logFileReader.getData(logFilePath,lastAccessDateTime,lastAccessFilePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
