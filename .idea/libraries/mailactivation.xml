@@ -1,11 +1,7 @@
 <component name="libraryTable">
   <library name="mailactivation">
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../mailactivation" />
-      <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.18.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/../../mailactivation" recursive="false" />
   </library>
 </component>
