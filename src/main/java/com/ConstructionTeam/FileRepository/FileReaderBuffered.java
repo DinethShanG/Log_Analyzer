@@ -12,7 +12,7 @@ public class FileReaderBuffered implements InputFileReader {
         try {
             fileReader = new FileReader(path);
         } catch (FileNotFoundException e) {
-            System.out.println("File not Founded");
+            System.out.print("A file not Founded :");
         }
         return new BufferedReader(fileReader);
     }
