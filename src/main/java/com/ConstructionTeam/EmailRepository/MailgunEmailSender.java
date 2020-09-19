@@ -21,6 +21,6 @@ public class MailgunEmailSender implements EmailSender  {
                 .field("subject", "Hello "+ user.getName())
                 .field("text", Collections.singleton(emailBody))
                 .asJson();
-        System.out.println(request.getBody());
+        System.out.println("Send an Error Report to "+user.getName()+" via mail: "+user.getEmail());
     }
 }
