@@ -32,7 +32,7 @@ public class ExecutionTest {
 
         ArrayList<ErrorData> errorDataList = new ArrayList<>();
         //errorDataList.add(new ErrorData("DummyCurrentDateAndTime","DummyId","DummyTitle","DummyDescription"));
-        when(logFileReader.getData("DummyFilePath","DummyLastDateAndTime")).thenReturn(errorDataList);
+        //when(logFileReader.getData("DummyFilePath","DummyLastDateAndTime")).thenReturn(errorDataList);
 
         ArrayList<User> userList=new ArrayList<>();
         userList.add(new User("DummyName","DummyEmail"));

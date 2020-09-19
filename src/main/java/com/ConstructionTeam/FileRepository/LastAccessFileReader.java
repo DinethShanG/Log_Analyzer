@@ -8,31 +8,10 @@ public class LastAccessFileReader  {
     private String lastAccessDateTime;
 
     public String getLastAccessDateTime(String lastAccessFilePath) throws IOException {
-        BufferedReader objReader = null;
-        com.ConstructionTeam.FileRepository.FileReader bufferFileReader = new BufferFileReader();
-        BufferedReader bufferedReader = bufferFileReader.readFile(lastAccessFilePath);
-        String strCurrentLine = bufferedReader.readLine();
-        try {
-            while ((strCurrentLine!= null)) {
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(lastAccessFilePath));
+        lastAccessDateTime = bufferedReader.readLine();
 
-                lastAccessDateTime = strCurrentLine;
-            }
-
-        } finally {
-
-            try {
-                if (objReader != null)
-                    objReader.close();
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
-        }
-        if (lastAccessDateTime != null){
-            return lastAccessDateTime;
-        }
-        else{
-            return null;
-        }
+        return lastAccessDateTime;
 
     }
 }

@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class BufferFileReader implements FileReader {
+public class BufferFileReader implements InputFileReader {
     @Override
     public BufferedReader readFile(String path) {
         BufferedReader bufferedReader = null;

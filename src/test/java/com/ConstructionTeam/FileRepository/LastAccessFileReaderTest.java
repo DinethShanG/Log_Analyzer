@@ -1,13 +1,27 @@
 package com.ConstructionTeam.FileRepository;
 
+import org.junit.Before;
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 public class LastAccessFileReaderTest {
+
+    @Test
+    public void should_fetch_contend_from_file() throws IOException {
+        InputFileReader inputFileReader=mock(InputFileReader.class);
+        //when(inputFileReader.readFile("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt")).thenReturn()
+        LastAccessFileReader lastAccessFileReader=new LastAccessFileReader();
+        lastAccessFileReader.getLastAccessDateTime("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt");
+
+        verify(inputFileReader).readFile("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt");
+    }
 
     @Test
     public void should_return_last_access_date_and_time_if_not_null() throws IOException {
