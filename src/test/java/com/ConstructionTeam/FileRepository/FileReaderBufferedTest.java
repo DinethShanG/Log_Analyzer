@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class FileReaderBufferedTest {
 
     @Test
-    public void should_return_a_buffer_reader()
+    public void should_return_a_buffered_reader_instance()
     {
         FileReaderBuffered fileReaderBuffered = new FileReaderBuffered();
         assertThat(fileReaderBuffered.readFile("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt"),instanceOf(BufferedReader.class));
