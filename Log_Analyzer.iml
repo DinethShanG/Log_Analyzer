@@ -14,8 +14,6 @@
     <orderEntry type="library" name="mailactivation" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.5-bin1" level="project" />
     <orderEntry type="library" name="junit-4.12" level="project" />
-    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.21" level="project" />
-    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
     <orderEntry type="library" name="Maven: net.sargue:mailgun:1.9.2" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.25" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />

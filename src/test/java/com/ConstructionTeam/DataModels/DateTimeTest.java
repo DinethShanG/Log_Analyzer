@@ -13,6 +13,5 @@ public class DateTimeTest {
     DateTime dateTime = new DateTime();
     Date formattedDateTime = dateTime.formatDateTime("2020-09-19 13:38:27");
     assertEquals("Sat Sep 19 13:38:27 IST 2020",formattedDateTime.toString());
-
   }
 }
