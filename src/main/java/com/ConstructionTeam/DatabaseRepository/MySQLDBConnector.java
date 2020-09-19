@@ -18,6 +18,7 @@ public class MySQLDBConnector {
             conn= DriverManager.getConnection(url, username, password);
         } catch (SQLException sqlException) {
             System.out.println("MySQL Database Authentication Failed");
+            System.exit(0);
         }
         return conn;
     }
