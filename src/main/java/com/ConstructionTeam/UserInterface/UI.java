@@ -1,4 +1,4 @@
-package com.ConstructionTeam;
+package com.ConstructionTeam.UserInterface;
 
 import java.util.Scanner;
 

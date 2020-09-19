@@ -5,6 +5,7 @@ import com.ConstructionTeam.DataModels.ErrorDataCollector;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.Reader;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

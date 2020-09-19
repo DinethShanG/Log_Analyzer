@@ -6,8 +6,8 @@ import com.ConstructionTeam.DatabaseRepository.MySQL_CRUDOperator;
 import com.ConstructionTeam.EmailRepository.EmailBodyCreator;
 import com.ConstructionTeam.EmailRepository.MailgunEmailSender;
 import com.ConstructionTeam.FileRepository.LastAccessFileReader;
-import com.ConstructionTeam.FileRepository.LastAccessFileWriter;
 import com.ConstructionTeam.FileRepository.LogFileReader;
+import com.ConstructionTeam.UserInterface.UI;
 
 import java.io.IOException;
 import java.sql.SQLException;
