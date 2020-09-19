@@ -7,19 +7,17 @@ public class MySQLDBConnector {
     private String username = "root";
     private String password = "";
     private Connection conn;
-    private Statement stmt;
-    private ResultSet result;
 
     public Connection getDBConnection(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-            System.out.println(e);
+            System.out.println("MySql Database Connector not founded");
         }
         try {
             conn= DriverManager.getConnection(url, username, password);
         } catch (SQLException sqlException) {
-            System.out.println(sqlException);
+            System.out.println("MySQL Database Authentication Failed");
         }
         return conn;
     }

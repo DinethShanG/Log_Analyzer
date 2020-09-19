@@ -6,21 +6,15 @@ import java.io.IOException;
 
 public class LastAccessFileWriter {
     public void updateLastAccessDateTime(String lastAccessDateTime,String lastAccessFilePath) {
-        FileWriter writer = null;
+        OutputFileWriter bufferFileWriter = new FileWriterBuffered();
+        BufferedWriter bufferedWriter = bufferFileWriter.writeFile(lastAccessFilePath);
         try {
-            writer = new FileWriter(lastAccessFilePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        assert writer != null;
-        BufferedWriter buffer = new BufferedWriter(writer);
-        try {
-            buffer.write(lastAccessDateTime);
+            bufferedWriter.write(lastAccessDateTime);
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            buffer.close();
+            bufferedWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

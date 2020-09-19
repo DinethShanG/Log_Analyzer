@@ -7,42 +7,48 @@ import com.ConstructionTeam.EmailRepository.EmailBodyCreator;
 import com.ConstructionTeam.EmailRepository.MailgunEmailSender;
 import com.ConstructionTeam.FileRepository.LastAccessFileReader;
 import com.ConstructionTeam.FileRepository.LogFileReader;
+import com.ConstructionTeam.UserInterface.UI;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 public class ExecutionTest {
+
+    Execution execution= new Execution();
+    //@Rule
+    //public final TextFromStandardInputStream systemInMock = emptyStandardInputStream();
     @Test
     public void should_fetch_file_path_from_UI() throws IOException, SQLException {
-        UI ui= mock(UI.class);
+        //systemInMock.provideLines("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log");
+        //UI ui=new UI();
+        UI ui = mock(UI.class);
+        when(ui.executeUI()).thenReturn("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log");
+
         LastAccessFileReader lastAccessFileReader = mock(LastAccessFileReader.class);
+        when(lastAccessFileReader.getLastAccessDateTime("src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt")).thenReturn("2020-09-19 11:34:43");
+
         LogFileReader logFileReader = mock(LogFileReader.class);
-        MySQL_CRUDOperator mySQL_crudOperator=mock(MySQL_CRUDOperator.class);
-        EmailBodyCreator emailBodyCreator = mock(EmailBodyCreator.class);
-        MailgunEmailSender mailgunEmailSender = new MailgunEmailSender();
-
-
-        when(ui.executeUI()).thenReturn("DummyFilePath");
-        //when(lastAccessFileReader.getLastAccessDateTime("DummyFilePath")).thenReturn("DummyLastDateAndTime");
-
         ArrayList<ErrorData> errorDataList = new ArrayList<>();
-        //errorDataList.add(new ErrorData("DummyCurrentDateAndTime","DummyId","DummyTitle","DummyDescription"));
-        //when(logFileReader.getData("DummyFilePath","DummyLastDateAndTime")).thenReturn(errorDataList);
+        errorDataList.add(new ErrorData());
+        when(logFileReader.getData("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log","2020-09-19 11:34:43","src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt")).thenReturn(errorDataList);
 
+        MySQL_CRUDOperator mySQL_crudOperator=mock(MySQL_CRUDOperator.class);
         ArrayList<User> userList=new ArrayList<>();
         userList.add(new User("DummyName","DummyEmail"));
         when(mySQL_crudOperator.getUserMailList()).thenReturn(userList);
 
+        EmailBodyCreator emailBodyCreator = mock(EmailBodyCreator.class);
         StringBuilder EmailBody = new StringBuilder("DummyBody");
         when(emailBodyCreator.createMailBody(errorDataList)).thenReturn(EmailBody);
 
-        Execution execution=new Execution();
+        MailgunEmailSender mailgunEmailSender = new MailgunEmailSender();
+
         execution.excute();
-        verify(ui).executeUI();
+        //verify(ui).executeUI();
+        verify(emailBodyCreator).createMailBody(errorDataList);
     }
 }

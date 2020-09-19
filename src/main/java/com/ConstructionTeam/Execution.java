@@ -6,8 +6,8 @@ import com.ConstructionTeam.DatabaseRepository.MySQL_CRUDOperator;
 import com.ConstructionTeam.EmailRepository.EmailBodyCreator;
 import com.ConstructionTeam.EmailRepository.MailgunEmailSender;
 import com.ConstructionTeam.FileRepository.LastAccessFileReader;
-import com.ConstructionTeam.FileRepository.LastAccessFileWriter;
 import com.ConstructionTeam.FileRepository.LogFileReader;
+import com.ConstructionTeam.UserInterface.UI;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -26,15 +26,10 @@ public class Execution {
         String lastAccessFilePath = "src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
         LastAccessFileReader lastAccessFileReader = new LastAccessFileReader();
         lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime(lastAccessFilePath);
-        System.out.println(lastAccessDateTime);
         // Log file Read
         LogFileReader logFileReader = new LogFileReader();
-        ArrayList<ErrorData> errorList = null;
-        try {
-            errorList = logFileReader.getData(logFilePath,lastAccessDateTime,lastAccessFilePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        ArrayList<ErrorData> errorList;
+        errorList = logFileReader.getData(logFilePath,lastAccessDateTime,lastAccessFilePath);
 
         // Get Mail List
         ArrayList <User> userDetails = new ArrayList<>();

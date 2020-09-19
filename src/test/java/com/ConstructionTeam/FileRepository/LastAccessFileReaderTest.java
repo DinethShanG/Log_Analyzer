@@ -14,16 +14,6 @@ import static org.mockito.Mockito.*;
 public class LastAccessFileReaderTest {
 
     @Test
-    public void should_fetch_contend_from_file() throws IOException {
-        InputFileReader inputFileReader=mock(InputFileReader.class);
-        //when(inputFileReader.readFile("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt")).thenReturn()
-        LastAccessFileReader lastAccessFileReader=new LastAccessFileReader();
-        lastAccessFileReader.getLastAccessDateTime("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt");
-
-        verify(inputFileReader).readFile("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt");
-    }
-
-    @Test
     public void should_return_last_access_date_and_time_if_not_null() throws IOException {
         LastAccessFileReader lastAccessFileReader=new LastAccessFileReader();
         String lastAccessDateAndTime=lastAccessFileReader.getLastAccessDateTime("src/test/java/com/ConstructionTeam/FileRepository/LastAccessFileReaderTest.txt");

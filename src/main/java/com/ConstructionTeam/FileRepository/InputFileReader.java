@@ -5,5 +5,5 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public interface InputFileReader {
-    public BufferedReader readFile(String path);
+    BufferedReader readFile(String path) throws IOException;
 }

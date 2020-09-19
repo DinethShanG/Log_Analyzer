@@ -1,10 +1,10 @@
-package com.ConstructionTeam;
+package com.ConstructionTeam.UserInterface;
 
 import java.util.Scanner;
 
 public class UI {
     public String executeUI(){
-        String logFilePath = null;
+        String logFilePath;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Please Enter the Log File path:");
         logFilePath = scanner.next();
