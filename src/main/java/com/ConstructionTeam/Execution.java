@@ -23,7 +23,7 @@ public class Execution {
         // Code Start Here
         String lastAccessDateTime;
         // Last Access file Read
-        String lastAccessFilePath = "/home/dsgimhana/Desktop/Log_Analyzer/src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
+        String lastAccessFilePath = "src/main/java/com/ConstructionTeam/FileRepository/LastAccessDateTime.txt";
         LastAccessFileReader lastAccessFileReader = new LastAccessFileReader();
         lastAccessDateTime = lastAccessFileReader.getLastAccessDateTime(lastAccessFilePath);
         // Log file Read
