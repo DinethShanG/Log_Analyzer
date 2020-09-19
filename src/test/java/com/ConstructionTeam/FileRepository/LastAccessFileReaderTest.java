@@ -1,15 +1,11 @@
 package com.ConstructionTeam.FileRepository;
 
-import org.junit.Before;
 import org.junit.Test;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
+//import static org.mockito.Mockito.mock;
 
 public class LastAccessFileReaderTest {
 
