@@ -14,7 +14,7 @@ public class UITest {
   @Test
   public void should_fetch_file_path_from_UI(){
     systemInMock.provideLines("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log");
-    UI ui = new UI();
-    assertEquals("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log",ui.executeUI());
+    UI UI = new UI();
+    assertEquals("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log", UI.executeUI());
   }
 }

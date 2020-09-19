@@ -8,24 +8,30 @@ import com.ConstructionTeam.EmailRepository.MailgunEmailSender;
 import com.ConstructionTeam.FileRepository.LastAccessFileReader;
 import com.ConstructionTeam.FileRepository.LogFileReader;
 import com.ConstructionTeam.UserInterface.UI;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.contrib.java.lang.system.TextFromStandardInputStream;
 
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.contrib.java.lang.system.TextFromStandardInputStream.emptyStandardInputStream;
 import static org.mockito.Mockito.*;
 
 public class ExecutionTest {
 
     Execution execution= new Execution();
-    //@Rule
-    //public final TextFromStandardInputStream systemInMock = emptyStandardInputStream();
+    @Rule
+    public final TextFromStandardInputStream systemInMock = emptyStandardInputStream();
     @Test
     public void should_fetch_file_path_from_UI() throws IOException, SQLException {
-        //systemInMock.provideLines("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log");
-        //UI ui=new UI();
-        UI ui = mock(UI.class);
+        systemInMock.provideLines("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log");
+
+        Execution execution = new Execution();
+
+        UI ui=mock(UI.class);
         when(ui.executeUI()).thenReturn("src/test/java/com/ConstructionTeam/FileRepository/LogFileReaderTest.log");
 
         LastAccessFileReader lastAccessFileReader = mock(LastAccessFileReader.class);
@@ -48,7 +54,5 @@ public class ExecutionTest {
         MailgunEmailSender mailgunEmailSender = new MailgunEmailSender();
 
         execution.excute();
-        //verify(ui).executeUI();
-        verify(emailBodyCreator).createMailBody(errorDataList);
     }
 }
