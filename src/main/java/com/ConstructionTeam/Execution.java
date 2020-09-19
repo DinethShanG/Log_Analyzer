@@ -17,8 +17,8 @@ public class Execution {
     public void excute() throws IOException {
 
         String logFilePath;
-        UI ui = new UI();
-        logFilePath = ui.executeUI();
+        UI UI = new UI();
+        logFilePath = UI.executeUI();
 
         // Code Start Here
         String lastAccessDateTime;

@@ -431,7 +431,7 @@
 2020-01-25 17:33:09,339 [  36797]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=956 
 2020-01-25 17:33:10,229 [  37687]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\bin\fsnotifier64.exe 
 2020-01-25 17:33:10,354 [  37812]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
-2020-01-25 17:33:11,823 [  39281]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-01-25 17:33:11,823 [  39281]   INFO - com.intellij.ide.UI.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0
 2020-01-25 17:33:12,542 [  40000]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
 2020-01-25 17:33:12,854 [  40312]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: VibrantInk from plugin: com.intellij.database 
 2020-01-25 17:33:12,854 [  40312]   WARN - s.impl.EditorColorsManagerImpl - Cannot find scheme: WarmNeon from plugin: com.intellij.database 
