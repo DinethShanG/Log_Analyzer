@@ -7,4 +7,5 @@ import java.util.ArrayList;
 
 public interface DB_CRUDOperator {
     ArrayList<User> getUserMailList() throws SQLException, ClassNotFoundException;
+    void addUser(String name,String mail);
 }

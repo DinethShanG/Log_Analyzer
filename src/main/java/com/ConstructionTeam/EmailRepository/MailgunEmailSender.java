@@ -9,9 +9,8 @@ import kong.unirest.UnirestException;
 import java.util.Collections;
 
 public class MailgunEmailSender implements EmailSender  {
-    private static final String API_KEY = "f2d305922076da912e519c023b6290ce-d5e69b0b-2f97f4f7";
-    private static final String YOUR_DOMAIN_NAME = "https://api.mailgun.net/v3/sandbox9d1f84352136426db7937366d3260127.mailgun.org";
-
+    private static final String API_KEY = "";
+    private static final String YOUR_DOMAIN_NAME = "";
 
     public void sendSimpleMessage(User user, StringBuilder emailBody) throws UnirestException {
         HttpResponse<JsonNode> request = Unirest.post(YOUR_DOMAIN_NAME + "/messages")
@@ -21,6 +20,8 @@ public class MailgunEmailSender implements EmailSender  {
                 .field("subject", "Hello "+ user.getName())
                 .field("text", Collections.singleton(emailBody))
                 .asJson();
-        System.out.println("Send an Error Report to "+user.getName()+" via mail: "+user.getEmail());
+
+        new EmailSenderValidation().validateEmail(request,user);
+
     }
 }

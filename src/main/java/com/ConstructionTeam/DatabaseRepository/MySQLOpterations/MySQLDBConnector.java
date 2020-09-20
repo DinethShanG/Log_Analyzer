@@ -1,4 +1,4 @@
-package com.ConstructionTeam.DatabaseRepository;
+package com.ConstructionTeam.DatabaseRepository.MySQLOpterations;
 
 import java.sql.*;
 

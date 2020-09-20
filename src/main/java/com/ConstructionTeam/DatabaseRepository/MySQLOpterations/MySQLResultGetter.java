@@ -1,4 +1,4 @@
-package com.ConstructionTeam.DatabaseRepository;
+package com.ConstructionTeam.DatabaseRepository.MySQLOpterations;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -13,12 +13,12 @@ public class MySQLResultGetter {
         try {
             stmt = conn.createStatement();
         } catch (SQLException sqlException) {
-            System.out.println(sqlQuery);;
+            System.out.println(sqlQuery);
         }
         try {
             result = stmt.executeQuery(sqlQuery);
         } catch (SQLException sqlException) {
-            System.out.println(sqlException);;
+            System.out.println(sqlException);
         }
         return result;
     }
