@@ -15,6 +15,7 @@ import java.util.Objects;
 
 public class LogFileReader{
     public ArrayList<ErrorData> getData(String path, String previousAccessedDateTime, String LastAccessFilePath){
+
         String line = null;
         DateTime dateTime = new DateTime();
         String currentDateTime = dateTime.getCuurentDateTime();
@@ -22,6 +23,7 @@ public class LogFileReader{
         ArrayList <ErrorData> errorDataList = new ArrayList<>();
         InputFileReader bufferFileReader = new FileReaderBuffered();
         BufferedReader bufferedReader= null;
+        
         try {
             bufferedReader = bufferFileReader.readFile(path);
         } catch (IOException e) {
