@@ -7,8 +7,8 @@ import java.sql.Statement;
 
 
 public class MySQLResultGetter {
-    private Statement stmt;
-    private ResultSet result;
+    private final Statement stmt;
+    private final ResultSet result;
     public ResultSet getResult (Connection conn, String sqlQuery){
         try {
             stmt = conn.createStatement();
