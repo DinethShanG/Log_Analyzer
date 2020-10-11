@@ -9,8 +9,8 @@ import kong.unirest.UnirestException;
 import java.util.Collections;
 
 public class MailgunEmailSender implements EmailSender  {
-    private static final String API_KEY = "";
-    private static final String YOUR_DOMAIN_NAME = "";
+    private static final String API_KEY = "YOUR API_KEY";
+    private static final String YOUR_DOMAIN_NAME = "YOUR DOMAIN_NAME";
 
     public void sendSimpleMessage(User user, StringBuilder emailBody) throws UnirestException {
         HttpResponse<JsonNode> request = Unirest.post(YOUR_DOMAIN_NAME + "/messages")
