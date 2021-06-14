@@ -1,8 +1,6 @@
 package com.ConstructionTeam.FileRepository;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class LastAccessFileWriter {
     public void updateLastAccessDateTime(String lastAccessDateTime,String lastAccessFilePath) {

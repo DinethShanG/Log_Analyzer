@@ -3,10 +3,10 @@ package com.ConstructionTeam.DatabaseRepository.MySQLOpterations;
 import java.sql.*;
 
 public class MySQLDBConnector {
-    private String url ="jdbc:mysql://localhost:3306/Users";
-    private String username = "root";
-    private String password = "17013";
-    private Connection conn;
+    private final String url ="jdbc:mysql://localhost:3306/Users";
+    private final String username = "root";
+    private final String password = "17013";
+    private final Connection conn;
 
     public Connection getDBConnection(){
         try {

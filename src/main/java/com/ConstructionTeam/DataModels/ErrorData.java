@@ -7,17 +7,7 @@ public class ErrorData implements DataModel{
     private String description;
     private String [] readTitleDescription;
 
-    public ErrorData()
-    {
-
-    }
-    public ErrorData(String dateTime,String id,String title,String description)
-    {
-        this.dateTime=dateTime;
-        this.id=id;
-        this.title=title;
-        this.description=description;
-    }
+    
 
     public String getDateTime() {
         return dateTime;
